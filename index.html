@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="icon" href="icons/maskbook-logo.png">
+
+    <script src="script.js"></script>
+    <script src="resource.js"></script>
+    <title>Maskbook</title>
+</head>
+
+<body>
+    <nav class="flex align-center">
+
+        <ul class="nav-ul flex ">
+            <!-- for logo and search bar -->
+            <ul class="nav-left-ul flex align-center">
+                <li>
+                    <img src="icons/maskbook-logo.png" alt="" class="logo">
+                </li>
+                <li>
+                    <input type="text" class="search-bar" placeholder=" Search Profiles">
+                   
+                </li>
+            </ul>
+            <!-- for navigation icons -->
+            <ul class="nav-center-ul flex  align-center">
+                <li class="navigation-icon">
+                    <a href="#">
+                        <img src="icons/home.svg" alt="" class="grey">
+                    </a>
+                </li>
+                <li class="navigation-icon">
+                    <a href="#">
+                        <img src="icons/markeplace.svg" alt="" class="grey">
+                    </a>
+                </li>
+                <li class="navigation-icon">
+                    <a href="#">
+                        <img src="icons/marketplace.svg" alt="" class="grey">
+                    </a>
+                </li>
+                <li class="navigation-icon">
+                    <a href="#">
+                        <img src="icons/groups.svg" alt="" class="grey">
+                    </a>
+                </li>
+                <li class="navigation-icon">
+                    <a href="#">
+                        <img src="icons/games.svg" alt="" class="grey">
+                    </a>
+                </li>
+            </ul>
+            <!-- for right-side nav -->
+            <ul class="nav-right-ul flex align-center">
+                <li class="side-nav-icon flex align-center justify-center">
+                    <img src="icons/menu.svg" alt="">
+                </li>
+                <li class="side-nav-icon flex align-center justify-center ">
+                    <img src="icons/messenger.svg" alt="">
+                </li>
+                <li class="side-nav-icon flex align-center justify-center">
+                    <img src="icons/notification_bell.svg" alt="">
+                </li>
+                <li class="side-nav-icon profile flex align-center justify-center ">
+                        <img src="images/profile_pictures/myprofile.png" alt="">
+                </li>
+                <li class="side-nav-icon  friends-list-btn-li flex align-center justify-center">
+                    <button class="friends-list-btn">
+                        <img src="icons/left nav icons/friends.png" alt="" class="grey">
+                    </button>
+                </li>
+            </ul>
+        </ul>
+    </nav>
+
+    <div class="container flex">
+        <div class="left ">
+            <div class="search-results">
+                <ul></ul>
+            </div>
+            <ul class="left-list">
+                <li class="left-list-li profile">
+                    <img src="images/profile_pictures/myprofile.png" alt="">
+                    <span>Shashank Saini</span>
+                </li>
+                <li class="left-list-li">
+                    <img src="icons//left nav icons/friends.png" alt="">
+                    <span>Friends</span>
+                </li>
+                <li class="left-list-li">
+                    <img src="icons/left nav icons/memories.png" alt="">
+                    <span>Memories</span>
+                </li>
+                <li class="left-list-li">
+                    <img src="icons/left nav icons/saved.png" alt="">
+                    <span>Saved</span>
+                </li>
+                <li class="left-list-li">
+                    <img src="icons/left nav icons/groups.png" alt="">
+                    <span>Groups</span>
+                </li>
+                <li class="left-list-li">
+                    <img src="icons/left nav icons/videos.png" alt="">
+                    <span>Videos</span>
+                </li>
+                <li class="left-list-li">
+                    <img src="icons/left nav icons/marketplace.png" alt="">
+                    <span>Marketplace</span>
+                </li>
+                <li class="left-list-li">
+                    <img src="icons/left nav icons/feed.png" alt="">
+                    <span>Feeds</span>
+                </li>
+                <li class="left-list-li">
+                    <img src="icons/left nav icons/ad-manager.png" alt="">
+                    <span>Ad Manager</span>
+                </li>
+                <li class="left-list-li">
+                    <img src="icons/left nav icons/events.png" alt="">
+                    <span>Events</span>
+                </li>
+                <li class="left-list-li">
+                    <img src="icons/left nav icons/live-videos.png" alt="">
+                    <span>Live videos</span>
+                </li>
+                <li class="left-list-li">
+                    <img src="icons/left nav icons/pages.png" alt="">
+                    <span>Pages</span>
+                </li>
+                <li class="left-list-li">
+                    <img src="icons/left nav icons/games.png" alt="">
+                    <span>Play Games</span>
+                </li>
+                <li class="left-list-li">
+                    <img src="icons/left nav icons/recent-ad.png" alt="">
+                    <span>Recent Ad Activity</span>
+                </li>
+            </ul>
+        </div>
+        <div class="center flex  align-center ">
+            <div class="story-carousel flex">
+                <button class="prev-story">
+                    <img src="icons/prev.svg" alt="" class="grey">
+                </button>
+                <div class="story-wrapper">
+
+                    <div class="story">
+                        <img src="images/story/story 1.avif" alt="">
+                        <span>Mike Fowler</span>
+                    </div>
+                    <div class="story">
+                        <img src="images/story/story 2.jpg" alt="">
+                        <span>Sarah Doe</span>
+                    </div>
+                    <div class="story">
+                        <img src="images/story/story 3.webp" alt="">
+                        <span>Geetesh Garg</span>
+                    </div>
+                    <div class="story">
+                        <img src="images/story/story 4.jpg" alt="">
+                        <span>ngolo kante</span>
+                    </div>
+                </div>
+                    <button class="next-story">
+                    <img src="icons/next.svg" alt="" class="grey">
+                </button>
+            </div>
+            <ul class="post-ul ">
+            </ul>
+        </div>
+        <div class="right">
+            <div class="right-friend-nav flex  align-center ">
+                <span>Contacts</span>
+                <div>
+
+                    <img src="icons/search.svg" alt="" class="grey">
+                    <img src="icons/dot-option.png" alt="" class="grey">
+                </div>
+
+            </div>
+            <ul class="friend-list-ul">
+            </ul>
+ 
+        </div>
+    </div>
+    
+</body>
+
+</html>
